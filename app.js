@@ -22,10 +22,6 @@ app.post("/home" , function(req, res){
 	res.redirect("/home");
 });
 
-app.get("/upload", function(req, res){
-	res.render("upload");
-});
-
 
 app.listen(process.env.PORT || 3000 , process.env.IP , function(){
 	console.log("Server has started");

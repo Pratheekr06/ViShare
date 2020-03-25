@@ -1,0 +1,308 @@
+<html>
+
+<head>
+  <title>Homepage</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="/stylesheets/style.css"> -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+	
+<style>
+		body {
+  font-family: "Lato", sans-serif;
+  margin: 0px;
+}
+
+
+.anchor{
+  text-decoration: none;
+  
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 38px;
+}
+
+.left-side {
+  display: flex;
+  padding-left: 650px;
+
+}
+
+.nav-wrapper > .left-side > div {
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.nav-link-wrapper {
+  height: 22px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+.active-nav-link a {
+  color: black !important;
+}
+
+.icon{
+  font-size: 50px;
+  color: white;
+}
+
+.nav-link-wrapper a {
+  color: #8a8a8a;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+
+.nav-link-wrapper a:hover {
+  color: black;
+}
+
+.items-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.item-wrapper {
+  position: relative;
+}
+
+.img-background {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 100%;
+}
+
+.img-text-wrapper {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.img-text-wrapper .subtitle {
+  transition: 1s;
+  color: transparent;
+}
+
+.image-blur {
+  transition: 1s;
+  filter: brightness(10%);
+}
+
+.img-text-wrapper:hover .subtitle {
+  color: lightseagreen;
+  font-weight: 600;
+}
+
+.logo-wrapper img {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.two-column-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.profile-image-wrapper img {
+  width: 100%;
+}
+
+.profile-content-wrapper {
+  padding: 30px;
+}
+
+.profile-content-wrapper h1 {
+  color: lightseagreen;
+}
+</style>
+
+<body>
+  <div class="container">
+    <div class="nav-wrapper">
+      <div class="left-side">
+        <div class="nav-link-wrapper active-nav-link">
+          <a href="/home" style="font-size: 40px;border-bottom: 1px solid black;">Home</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="content-wrapper">
+      <div class="items-wrapper">
+
+        <div class="item-wrapper">
+          <div class="img-background" style="background-image:url(https://img.youtube.com/vi/SUUMT0xyMjc/0.jpg)"></div>
+
+          <div class="img-text-wrapper" style="padding-left: 140px;">
+            <div class="logo-wrapper">
+              <a href="/share"><i class="fas fa-share-square icon"></i></a>
+            </div>
+
+            <a href="https://www.youtube.com/watch?v=SUUMT0xyMjc" class="anchor" target="_blank"><div class="subtitle">Friends Send a Message To 2020.</div></a>
+          </div>
+        </div>
+
+        <div class="item-wrapper">
+          <div class="img-background" style="background-image:url(https://img.youtube.com/vi/IJ6EzIzyJKU/0.jpg)"></div>
+          <div class="img-text-wrapper">
+            <div class="logo-wrapper">
+              <a href="/share"><i class="fas fa-share-square icon"></i></a>
+            </div>
+
+			  <a href="https://youtu.be/IJ6EzIzyJKU" class="anchor" target="_blank"><div class="subtitle">PM Modi's Second Address To Nation On Coronavirus.</div></a>
+          </div>
+        </div>
+
+        <div class="item-wrapper">
+          <div class="img-background" style="background-image:url(https://img.youtube.com/vi/lU46nuyc54M/0.jpg)"></div>
+          <div class="img-text-wrapper">
+            <div class="logo-wrapper">
+              <a href="/share"><i class="fas fa-share-square icon"></i></a>
+            </div>
+
+			  <a href="https://www.youtube.com/watch?v=lU46nuyc54M" class="anchor" target="_blank"><div class="subtitle">The world before and after COVID-19.</div></a>
+          </div>
+        </div>
+
+        <div class="item-wrapper">
+          <div class="img-background" style="background-image:url(https://img.youtube.com/vi/bydILYTQUsA/0.jpg)"></div>
+          <div class="img-text-wrapper">
+            <div class="logo-wrapper">
+              <a href="/share"><i class="fas fa-share-square icon"></i></a>
+            </div>
+
+			  <a href="https://www.youtube.com/watch?v=bydILYTQUsA" class="anchor" target="_blank"><div class="subtitle">‘India has tremendous capacity to combat COVID-19’: WHO Executive Director.</div></a>
+          </div>
+        </div>
+
+        <div class="item-wrapper">
+          <div class="img-background" style="background-image:url(https://img.youtube.com/vi/_zXvl88i4Hw/0.jpg)"></div>
+          <div class="img-text-wrapper">
+            <div class="logo-wrapper">
+              <a href="/share"><i class="fas fa-share-square icon"></i></a>
+            </div>
+
+			  <a href="https://www.youtube.com/watch?v=_zXvl88i4Hw&t=54s" class="anchor" target="_blank"><div class="subtitle">The Little Master At His Best: Tendulkar Hits His 30th Hundred .</div></a>
+          </div>
+        </div>
+
+        <div class="item-wrapper">
+          <div class="img-background" style="background-image:url(https://img.youtube.com/vi/p_PJbmrX4uk/0.jpg)"></div>
+          <div class="img-text-wrapper">
+            <div class="logo-wrapper">
+             <a href="/share"><i class="fas fa-share-square icon"></i></a>
+            </div>
+
+			  <a href="https://youtu.be/p_PJbmrX4uk" class="anchor" target="_blank"><div class="subtitle">Money Heist: Part 4 Official Trailer Netflix.</div></a>
+          </div>
+        </div>
+
+        <div class="item-wrapper">
+          <div class="img-background" style="background-image:url(https://img.youtube.com/vi/DSLnoZoyEXk/0.jpg)"></div>
+          <div class="img-text-wrapper">
+            <div class="logo-wrapper">
+              <a href="/share"><i class="fas fa-share-square icon"></i></a>
+            </div>
+
+			  <a href="https://youtu.be/DSLnoZoyEXk" class="anchor" target="_blank"><div class="subtitle">Work From Home Problems ft. Pavan Venugopal Kannada Comedy Video Bangalore IT Employees Problems.</div></a>
+          </div>
+        </div>
+
+        <div class="item-wrapper">
+          <div class="img-background" style="background-image:url(https://img.youtube.com/vi/Ah7ZCnIIJdI/0.jpg)"></div>
+          <div class="img-text-wrapper" style="padding-left: 185px;">
+            <div class="logo-wrapper">
+              <a href="/share"><i class="fas fa-share-square icon"></i></a>
+            </div>
+
+			  <a href="https://youtu.be/Ah7ZCnIIJdI" class="anchor" target="_blank"><div class="subtitle">BYN : The Secret Gift.</div></a>
+          </div>
+        </div>
+
+        <div class="item-wrapper">
+          <div class="img-background" style="background-image:url(https://img.youtube.com/vi/mI_L6zHuyuw/0.jpg)"></div>
+          <div class="img-text-wrapper" style="padding-left: 110px;">
+            <div class="logo-wrapper">
+              <a href="/share"><i class="fas fa-share-square icon"></i></a>
+            </div>
+
+			  <a href="https://youtu.be/mI_L6zHuyuw" class="anchor" target="_blank"><div class="subtitle">Kotigobba - 3 Kichcha Sudeep Birthday Teaser.</div></a>
+          </div>
+        </div>
+
+        <div class="item-wrapper">
+          <div class="img-background" style="background-image:url(https://img.youtube.com/vi/VwVHCa81YeI/0.jpg)"></div>
+          <div class="img-text-wrapper">
+            <div class="logo-wrapper">
+              <a href="/share"><i class="fas fa-share-square icon"></i></a>
+            </div>
+
+			  <a href="https://youtu.be/VwVHCa81YeI" class="anchor" target="_blank"><div class="subtitle">Coronavirus: 6-step guide to self-quarantine; how to keep family, friends safe.</div></a>
+          </div>
+        </div>
+
+        <div class="item-wrapper">
+          <div class="img-background" style="background-image:url(https://img.youtube.com/vi/eIrMbAQSU34/0.jpg)"></div>
+          <div class="img-text-wrapper" style="padding-left: 165px;">
+            <div class="logo-wrapper">
+              <a href="/share"><i class="fas fa-share-square icon"></i></a>
+            </div>
+
+			  <a href="https://youtu.be/eIrMbAQSU34" class="anchor" target="_blank"><div class="subtitle">Java Tutorial for Beginners.</div></a>
+          </div>
+        </div>
+
+        <div class="item-wrapper">
+          <div class="img-background" style="background-image:url(https://img.youtube.com/vi/jq1E2j-_HXU/0.jpg)"></div>
+          <div class="img-text-wrapper">
+            <div class="logo-wrapper">
+              <a href="/share"><i class="fas fa-share-square icon"></i></a>
+            </div>
+
+			  <a href="https://youtu.be/jq1E2j-_HXU" class="anchor" target="_blank"><div class="subtitle">Gravitas: After coronavirus, a new disease kills one in China.</div></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+
+<script>
+  const Items = document.querySelectorAll('.item-wrapper');
+
+  Items.forEach(Item => {
+    Item.addEventListener('mouseover', () => {
+      console.log(Item.childNodes[1].classList)
+      Item.childNodes[1].classList.add('image-blur');
+    });
+
+    Item.addEventListener('mouseout', () => {
+      console.log(Item.childNodes[1].classList)
+      Item.childNodes[1].classList.remove('image-blur');
+    });
+  });
+
+</script>
+
+</html>

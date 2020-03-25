@@ -14,9 +14,13 @@ app.get("/home" , function(req , res){
 	res.render("home");
 });
 
+app.get("/share" , function(req , res){
+	res.render("share");
+});
 
-
-
+app.post("/home" , function(req, res){
+	res.redirect("/home");
+});
 
 
 app.listen(process.env.PORT || 3000 , process.env.IP , function(){
